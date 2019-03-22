@@ -1,6 +1,8 @@
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 public class TestFlight {
@@ -32,8 +34,8 @@ public class TestFlight {
 
     @Test
     public void testCanAddPassenger() {
-        flight.getPlane().board(person1);
-        assertEquals(1, flight.getPlane().passengerCount());
+        flight.board(person1);
+        assertEquals(1, flight.passengerCount());
     }
 
     @Test
@@ -54,5 +56,60 @@ public class TestFlight {
     @Test
     public void testHasDepartureTime() {
         assertEquals(this.departureTime, flight.getDepartureTime());
+    }
+
+
+
+
+    @Test
+    public void testPlaneCanAddPerson() {
+        flight.board(person1);
+        assertEquals(1, flight.passengerCount());
+    }
+
+    @Test
+    public void testCheckedBags() {
+        flight.board(person1);
+        assertEquals(2, flight.checkedBags());
+    }
+
+    @Test
+    public void testPlaneHasFreeSeats() {
+        assertTrue(flight.hasEmptySeats());
+    }
+
+    @Test
+    public void testCanNotOverFillPlaneWithPeople() {
+        int counter=0;
+        while (flight.hasEmptySeats()){
+            flight.board(person1);
+            counter++;
+        }
+        assertEquals(76, counter);
+    }
+
+    @Test
+    public void testNumberOfBagsCouldBeLoaded() {
+        assertTrue(flight.canCheckBags(person1));
+    }
+
+    @Test
+    public void testCanBoardPassenger() {
+        assertTrue(flight.canBoard(person1));
+    }
+
+    @Test
+    public void testCanNotOverLoadBaggage() {
+        //plane should be fully loaded with bags, but only half full with passengers.
+        Person person2=new Person("Baggage Bob", 4);
+        int counter =0;
+        while (flight.canBoard(person2)){
+            flight.board(person2);
+            counter++;
+        }
+        assertEquals(38, counter);
+        assertEquals(38, flight.passengerCount());
+        assertTrue(flight.hasEmptySeats());
+        assertEquals(152,flight.checkedBags());
     }
 }
