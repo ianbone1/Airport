@@ -40,10 +40,6 @@ public class Flight {
         return this.departureTime;
     }
 
-
-
-
-
     public boolean hasEmptySeats() {
         if (this.passengers.size() < this.plane.capacity()) {
             return true;
@@ -77,8 +73,12 @@ public class Flight {
         return totalBags*this.averageBagWeight;
     }
 
+    public int getAvailableBagWeight() {
+        return (this.plane.maxBagageWeight()-this.checkedBagWeight());
+    }
+
     public boolean canCheckBags(Person person) {
-        if ((this.plane.maxBagageWeight()-this.checkedBagWeight()) >=
+        if (this.getAvailableBagWeight() >=
                 (person.getBags()*this.averageBagWeight)){
             return true;
         }
@@ -91,4 +91,10 @@ public class Flight {
         }
         return false;
     }
+
+    public int passengerBagWeight(Person person) {
+        return person.getBags()*this.averageBagWeight;
+    }
+
+
 }

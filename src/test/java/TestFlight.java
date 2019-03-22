@@ -49,17 +49,20 @@ public class TestFlight {
     }
 
     @Test
+    public void testHowManyEmptySeats() {
+        assertEquals(76, plane.freeSeats());
+    }
+
+    @Test
     public void testDeparting() {
         assertEquals(this.departingAirport, flight.getDepartingAirport());
     }
 
+    @Ignore
     @Test
     public void testHasDepartureTime() {
         assertEquals(this.departureTime, flight.getDepartureTime());
     }
-
-
-
 
     @Test
     public void testPlaneCanAddPerson() {
@@ -112,4 +115,17 @@ public class TestFlight {
         assertTrue(flight.hasEmptySeats());
         assertEquals(152,flight.checkedBags());
     }
+
+    @Test
+    public void testPersonBagWeight() {
+        assertEquals(50, flight.passengerBagWeight(person1));
+    }
+
+    @Test
+    public void testAvailableBagWeight() {
+        assertEquals(3800, flight.getAvailableBagWeight());
+    }
+
+
+
 }

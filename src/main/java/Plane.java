@@ -23,4 +23,8 @@ public class Plane{
     public int maxBagageWeight() {
         return this.planeType.getMaxBaggageWeight();
     }
+
+    public int freeSeats() {
+        return this.capacity() - this.passengers.size();
+    }
 }
