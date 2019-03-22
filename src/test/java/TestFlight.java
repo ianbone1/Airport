@@ -2,6 +2,10 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+import static junit.framework.TestCase.assertNotNull;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
@@ -13,7 +17,7 @@ public class TestFlight {
     String flightNumber;
     String departingAirport;
     String destinationAirport;
-    String departureTime;
+    LocalDateTime departureTime;
 
     @Before
     public void setup(){
@@ -22,7 +26,7 @@ public class TestFlight {
         this.flightNumber="BA123";
         this.departingAirport="GLA";
         this.destinationAirport="LAX";
-        this.departureTime="09:00";
+        this.departureTime=LocalDateTime.parse("2019-03-22T15:00");
 
         this.flight= new Flight(this.plane, this.flightNumber, this.departingAirport, this.destinationAirport, this.departureTime);
     }
@@ -58,11 +62,11 @@ public class TestFlight {
         assertEquals(this.departingAirport, flight.getDepartingAirport());
     }
 
-    @Ignore
-    @Test
-    public void testHasDepartureTime() {
-        assertEquals(this.departureTime, flight.getDepartureTime());
-    }
+//    @Ignore
+//    @Test
+//    public void testHasDepartureTime() {
+//        assertEquals(this.departureTime, flight.getDepartureTime());
+//    }
 
     @Test
     public void testPlaneCanAddPerson() {
@@ -126,6 +130,53 @@ public class TestFlight {
         assertEquals(3800, flight.getAvailableBagWeight());
     }
 
+    @Test
+    public void testDateTimeOfFlight() {
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm");
+        LocalDateTime flightTime = LocalDateTime.parse("2019-03-22T15:00");
+        assertEquals(flightTime, flight.getDepartureTime());
+        System.out.println(flightTime);
+    }
 
+    @Test
+    public void testPersonHasFlightAfterBoarding() {
+        flight.board(person1);
+        Flight flight2 = person1.getFlight();
+        assertEquals(flight, flight2);
+    }
 
+    @Test
+    public void testPassengerGetsRandomFreeSeat() {
+        flight.board(person1);
+        assertNotNull(person1.getSeatNumber());
+//        System.out.println(person1.getSeatNumber());
+    }
+
+    @Test
+    public void testSortPassengersBySeatNumber() {
+        for (int i =0; i<60; i++){
+            flight.board(new Person("Passenger"+i, 2));
+        }
+        for (Person person : flight.getPassengers()){
+            System.out.println(person.getName() + " is in seat " + person.getSeatNumber());
+        }
+        flight.sortSeats();
+        for (Person person : flight.getPassengers()){
+            System.out.println(person.getName() + " is in seat " + person.getSeatNumber());
+        }
+    }
+
+    @Test
+    public void testBinarySearch() {
+        for (int i =0; i<60; i++){
+            flight.board(new Person("Passenger"+i, 2));
+        }
+        flight.sortSeats();
+        //look for the 45th persons seat
+        int searchSeat = flight.getPassengers().get(45).getSeatNumber();
+        System.out.println("Searching for 45th passenger seat: "+searchSeat);
+        Person foundPerson=flight.findSeat(searchSeat, flight.getPassengers());
+        assertNotNull(foundPerson);
+        System.out.println(foundPerson.getSeatNumber());
+    }
 }

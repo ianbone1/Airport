@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db645269-3e6f-42b5-bd55-6acd2470d4ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFlight.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,75 +19,35 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestPerson.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestPlane.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="245">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestFlight.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+            <state relative-caret-position="-103">
+              <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1469#1470#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-                <element signature="e#1961#1962#0" expanded="true" />
-                <element signature="e#2283#2284#0" expanded="true" />
-                <element signature="e#2339#2340#0" expanded="true" />
-                <element signature="e#2404#2405#0" expanded="true" />
-                <element signature="e#2456#2457#0" expanded="true" />
-                <element signature="e#3065#3066#0" expanded="true" />
-                <element signature="e#3126#3127#0" expanded="true" />
-                <element signature="e#3187#3188#0" expanded="true" />
-                <element signature="e#3217#3218#0" expanded="true" />
+                <element signature="e#2111#2112#0" expanded="true" />
+                <element signature="e#2155#2156#0" expanded="true" />
+                <element signature="e#5951#6086#0" expanded="true" />
+                <element signature="e#6085#6086#0" expanded="true" />
+                <element signature="e#6484#6648#0" expanded="true" />
+                <element signature="e#6647#6648#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,58 +56,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+            <state relative-caret-position="309">
+              <caret line="167" column="92" lean-forward="true" selection-start-line="167" selection-start-column="92" selection-end-line="167" selection-end-column="93" />
               <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1955#1956#0" expanded="true" />
-                <element signature="e#2032#2033#0" expanded="true" />
-                <element signature="e#2375#2376#0" expanded="true" />
-                <element signature="e#2403#2404#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-              <folding>
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PlaneType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1414#1415#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+                <element signature="e#2061#2062#0" expanded="true" />
+                <element signature="e#2508#2509#0" expanded="true" />
+                <element signature="e#2585#2586#0" expanded="true" />
+                <element signature="e#3027#3028#0" expanded="true" />
+                <element signature="e#3088#3089#0" expanded="true" />
+                <element signature="e#4738#4746#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,14 +77,73 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="182">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestFlight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="192" column="9" lean-forward="true" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#1491#1492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+              <folding>
+                <element signature="e#0#5324#0" expanded="true" />
+                <element signature="e#3647#3830#0" expanded="true" />
+                <element signature="e#3829#3830#0" expanded="true" />
+                <element signature="e#4308#4309#0" expanded="true" />
+                <element signature="e#4364#4365#0" expanded="true" />
+                <element signature="e#4424#4425#0" expanded="true" />
+                <element signature="e#4488#4489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/Result.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
@@ -182,11 +164,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/PlaneType.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPlane.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFlight.java" />
         <option value="$PROJECT_DIR$/src/main/java/Flight.java" />
       </list>
@@ -249,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553262501822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553278600719" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -268,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Airport">
+  <component name="RunManager" selected="JUnit.TestFlight.testBinarySearch">
     <configuration name="All in Airport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport" />
       <option name="PACKAGE_NAME" value="" />
@@ -277,40 +259,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFlight.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestFlight" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFlight.testAvailableBagWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Airport" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFlight" />
-      <option name="METHOD_NAME" value="testAvailableBagWeight" />
+      <option name="METHOD_NAME" value="testBinarySearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFlight.testHowManyEmptySeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFlight.testDateTimeOfFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestFlight" />
-      <option name="METHOD_NAME" value="testHowManyEmptySeats" />
+      <option name="METHOD_NAME" value="testDateTimeOfFlight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFlight.testPersonBagWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFlight.testPassengerGetsRandomFreeSeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestFlight" />
-      <option name="METHOD_NAME" value="testPersonBagWeight" />
+      <option name="METHOD_NAME" value="testPassengerGetsRandomFreeSeat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFlight.testSortPassengersBySeatNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Airport" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFlight" />
+      <option name="METHOD_NAME" value="testSortPassengersBySeatNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -318,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFlight.testBinarySearch" />
         <item itemvalue="JUnit.All in Airport" />
-        <item itemvalue="JUnit.TestFlight.testAvailableBagWeight" />
-        <item itemvalue="JUnit.TestFlight.testPersonBagWeight" />
-        <item itemvalue="JUnit.TestFlight.testHowManyEmptySeats" />
-        <item itemvalue="JUnit.TestFlight" />
+        <item itemvalue="JUnit.TestFlight.testDateTimeOfFlight" />
+        <item itemvalue="JUnit.TestFlight.testSortPassengersBySeatNumber" />
+        <item itemvalue="JUnit.TestFlight.testPassengerGetsRandomFreeSeat" />
       </list>
     </recent_temporary>
   </component>
@@ -340,35 +323,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFlight_testCanNotOverFillPlaneWithPeople - 2019.03.22 at 12h 48m 50s.xml">
-      <configuration name="TestFlight.testCanNotOverFillPlaneWithPeople" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 15h 58m 20s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFlight_testNumberOfBagsCouldBeLoaded - 2019.03.22 at 12h 49m 01s.xml">
-      <configuration name="TestFlight.testNumberOfBagsCouldBeLoaded" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 15h 58m 33s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFlight_testCanBoardPassenger - 2019.03.22 at 12h 49m 10s.xml">
-      <configuration name="TestFlight.testCanBoardPassenger" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 15h 58m 38s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFlight_testCanNotOverLoadBaggage - 2019.03.22 at 12h 49m 18s.xml">
-      <configuration name="TestFlight.testCanNotOverLoadBaggage" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 15h 58m 42s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlane - 2019.03.22 at 12h 49m 38s.xml">
-      <configuration name="TestPlane" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 16h 27m 08s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Airport - 2019.03.22 at 12h 49m 51s.xml">
-      <configuration name="All in Airport" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 16h 27m 14s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFlight - 2019.03.22 at 12h 50m 30s.xml">
-      <configuration name="TestFlight" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 16h 27m 19s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Airport - 2019.03.22 at 12h 50m 37s.xml">
-      <configuration name="All in Airport" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 16h 27m 25s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFlight_testHowManyEmptySeats - 2019.03.22 at 13h 38m 54s.xml">
-      <configuration name="TestFlight.testHowManyEmptySeats" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 18h 05m 41s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFlight_testPersonBagWeight - 2019.03.22 at 13h 43m 46s.xml">
-      <configuration name="TestFlight.testPersonBagWeight" configurationId="JUnit" />
+    <history-entry file="TestFlight_testBinarySearch - 2019.03.22 at 18h 13m 29s.xml">
+      <configuration name="TestFlight.testBinarySearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -388,8 +371,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43424657" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -402,6 +385,18 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Flight.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -426,7 +421,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestPlane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
@@ -456,19 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PlaneType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -482,58 +464,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#0#5324#0" expanded="true" />
+            <element signature="e#3647#3830#0" expanded="true" />
+            <element signature="e#3829#3830#0" expanded="true" />
+            <element signature="e#4308#4309#0" expanded="true" />
+            <element signature="e#4364#4365#0" expanded="true" />
+            <element signature="e#4424#4425#0" expanded="true" />
+            <element signature="e#4488#4489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#1491#1492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        <state relative-caret-position="309">
+          <caret line="167" column="92" lean-forward="true" selection-start-line="167" selection-start-column="92" selection-end-line="167" selection-end-column="93" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1955#1956#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2403#2404#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="true" />
+            <element signature="e#3027#3028#0" expanded="true" />
+            <element signature="e#3088#3089#0" expanded="true" />
+            <element signature="e#4738#4746#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestFlight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+        <state relative-caret-position="347">
+          <caret line="192" column="9" lean-forward="true" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
             <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1961#1962#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#3065#3066#0" expanded="true" />
-            <element signature="e#3126#3127#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
           </folding>
         </state>
       </provider>
